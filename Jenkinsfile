@@ -40,7 +40,7 @@ pipeline {
                         "files":[
                             {
                                 "pattern" : "target/*.jar",
-                                "target" : "spc-spc/"
+                                "target" : "spc-build-info/"
                             }
                         ]
                     }'''
