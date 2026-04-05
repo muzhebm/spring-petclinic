@@ -34,7 +34,7 @@ pipeline {
 
         stage('Binary file store') {
             steps {
-                rtupload(
+                rtUpload(
                     ServerId: 'JFROG',
                     Spec: '''{
                         "files":[
